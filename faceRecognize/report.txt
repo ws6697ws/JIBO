@@ -1,0 +1,141 @@
+Face Dataset
+at "F:/data/at"
+40 persons(each 10 img-pgm)
+
+Lab Environment
+Windows 10
+Python 3.5.1
+OpenCV 3.1.0 (with contrib-module)
+Visual Studio 2013
+Matlab 2012b
+
+train models to "F:/data/train";
+
+Algorithm               accuracy   wrong(class-id)   model-size
+eigenFaceReconizer      92.5 %     5, 10, 40         110 MB
+fisherFaceRecognizer    97.5%      1                 11 MB
+LBPHFaceRecognizer      95 %       5, 10             31 MB
+
+eigen-model:
+Predicted class = 1 / Actual class = 1.
+Predicted class = 2 / Actual class = 2.
+Predicted class = 3 / Actual class = 3.
+Predicted class = 4 / Actual class = 4.
+Predicted class = 40 / Actual class = 5.
+Predicted class = 6 / Actual class = 6.
+Predicted class = 7 / Actual class = 7.
+Predicted class = 8 / Actual class = 8.
+Predicted class = 9 / Actual class = 9.
+Predicted class = 38 / Actual class = 10.
+Predicted class = 11 / Actual class = 11.
+Predicted class = 12 / Actual class = 12.
+Predicted class = 13 / Actual class = 13.
+Predicted class = 14 / Actual class = 14.
+Predicted class = 15 / Actual class = 15.
+Predicted class = 16 / Actual class = 16.
+Predicted class = 17 / Actual class = 17.
+Predicted class = 18 / Actual class = 18.
+Predicted class = 19 / Actual class = 19.
+Predicted class = 20 / Actual class = 20.
+Predicted class = 21 / Actual class = 21.
+Predicted class = 22 / Actual class = 22.
+Predicted class = 23 / Actual class = 23.
+Predicted class = 24 / Actual class = 24.
+Predicted class = 25 / Actual class = 25.
+Predicted class = 26 / Actual class = 26.
+Predicted class = 27 / Actual class = 27.
+Predicted class = 28 / Actual class = 28.
+Predicted class = 29 / Actual class = 29.
+Predicted class = 30 / Actual class = 30.
+Predicted class = 31 / Actual class = 31.
+Predicted class = 32 / Actual class = 32.
+Predicted class = 33 / Actual class = 33.
+Predicted class = 34 / Actual class = 34.
+Predicted class = 35 / Actual class = 35.
+Predicted class = 36 / Actual class = 36.
+Predicted class = 37 / Actual class = 37.
+Predicted class = 38 / Actual class = 38.
+Predicted class = 39 / Actual class = 39.
+Predicted class = 5 / Actual class = 40.
+fisher-model:
+Predicted class = 25 / Actual class = 1.
+Predicted class = 2 / Actual class = 2.
+Predicted class = 3 / Actual class = 3.
+Predicted class = 4 / Actual class = 4.
+Predicted class = 5 / Actual class = 5.
+Predicted class = 6 / Actual class = 6.
+Predicted class = 7 / Actual class = 7.
+Predicted class = 8 / Actual class = 8.
+Predicted class = 9 / Actual class = 9.
+Predicted class = 10 / Actual class = 10.
+Predicted class = 11 / Actual class = 11.
+Predicted class = 12 / Actual class = 12.
+Predicted class = 13 / Actual class = 13.
+Predicted class = 14 / Actual class = 14.
+Predicted class = 15 / Actual class = 15.
+Predicted class = 16 / Actual class = 16.
+Predicted class = 17 / Actual class = 17.
+Predicted class = 18 / Actual class = 18.
+Predicted class = 19 / Actual class = 19.
+Predicted class = 20 / Actual class = 20.
+Predicted class = 21 / Actual class = 21.
+Predicted class = 22 / Actual class = 22.
+Predicted class = 23 / Actual class = 23.
+Predicted class = 24 / Actual class = 24.
+Predicted class = 25 / Actual class = 25.
+Predicted class = 26 / Actual class = 26.
+Predicted class = 27 / Actual class = 27.
+Predicted class = 28 / Actual class = 28.
+Predicted class = 29 / Actual class = 29.
+Predicted class = 30 / Actual class = 30.
+Predicted class = 31 / Actual class = 31.
+Predicted class = 32 / Actual class = 32.
+Predicted class = 33 / Actual class = 33.
+Predicted class = 34 / Actual class = 34.
+Predicted class = 35 / Actual class = 35.
+Predicted class = 36 / Actual class = 36.
+Predicted class = 37 / Actual class = 37.
+Predicted class = 38 / Actual class = 38.
+Predicted class = 39 / Actual class = 39.
+Predicted class = 40 / Actual class = 40.
+LBPH-model:
+Predicted class = 1 / Actual class = 1.
+Predicted class = 2 / Actual class = 2.
+Predicted class = 3 / Actual class = 3.
+Predicted class = 4 / Actual class = 4.
+Predicted class = 40 / Actual class = 5.
+Predicted class = 6 / Actual class = 6.
+Predicted class = 7 / Actual class = 7.
+Predicted class = 8 / Actual class = 8.
+Predicted class = 9 / Actual class = 9.
+Predicted class = 4 / Actual class = 10.
+Predicted class = 11 / Actual class = 11.
+Predicted class = 12 / Actual class = 12.
+Predicted class = 13 / Actual class = 13.
+Predicted class = 14 / Actual class = 14.
+Predicted class = 15 / Actual class = 15.
+Predicted class = 16 / Actual class = 16.
+Predicted class = 17 / Actual class = 17.
+Predicted class = 18 / Actual class = 18.
+Predicted class = 19 / Actual class = 19.
+Predicted class = 20 / Actual class = 20.
+Predicted class = 21 / Actual class = 21.
+Predicted class = 22 / Actual class = 22.
+Predicted class = 23 / Actual class = 23.
+Predicted class = 24 / Actual class = 24.
+Predicted class = 25 / Actual class = 25.
+Predicted class = 26 / Actual class = 26.
+Predicted class = 27 / Actual class = 27.
+Predicted class = 28 / Actual class = 28.
+Predicted class = 29 / Actual class = 29.
+Predicted class = 30 / Actual class = 30.
+Predicted class = 31 / Actual class = 31.
+Predicted class = 32 / Actual class = 32.
+Predicted class = 33 / Actual class = 33.
+Predicted class = 34 / Actual class = 34.
+Predicted class = 35 / Actual class = 35.
+Predicted class = 36 / Actual class = 36.
+Predicted class = 37 / Actual class = 37.
+Predicted class = 38 / Actual class = 38.
+Predicted class = 39 / Actual class = 39.
+Predicted class = 40 / Actual class = 40.
